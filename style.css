@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  /* width: 100%; */
+  background-color: green;
+  padding: 1rem;
+  text-align: left;
+  color: white;
+  justify-content: space-between;
+}
+
+.search {
+  margin-right: 3rem;
+  width: 300px;
+  height: 30px;
+}
+
+.container {
+  margin: 2rem auto;
+  width: 400px;
+  height: fit-content;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  height: fit-content;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.form {
+  margin-bottom: 1rem;
+}
+
+.list-group-items {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.clickMe {
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  position: relative;
+  background-color: red;
+  color: #fff;
+  left: 240px;
+  cursor: pointer;
+  border: none;
+}

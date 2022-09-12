@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items Lister</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="main-heading">Item Lister</h1>
+      <input
+        class="search"
+        id="filter"
+        type="search"
+        placeholder="Search Items.."
+      />
+    </header>
+    <div class="container">
+      <div id="main" class="card">
+        <div class="form">
+          <h1 class="titles">Add Items</h1>
+          <form id="addForm">
+            <input type="text" id="item" />
+            <input type="submit" />
+          </form>
+        </div>
+        <h2 class="titles">Items</h2>
+        <ul id="items" class="list-group"></ul>
+      </div>
+
+      <br />
+      <br />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
